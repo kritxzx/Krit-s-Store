@@ -1,0 +1,289 @@
+.Home-page {
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+    background-size: cover;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inika';
+    font-size: 22px;
+}
+
+#header a:hover {
+    color: #cccccc;
+}
+
+#TEXT {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    font-family: 'Inika';
+    font-size: 22px;
+    margin-left: 100px;
+}
+#lefttext {
+    display: inline-flex;
+}
+#kritstore {
+    white-space: nowrap;
+    display: inline-flex;
+    margin-right: 100px;
+    font-family: 'Inika';
+    font-size: 22px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: white;
+    margin: 0;
+}
+
+#textbody {
+    font-family: 'Inika';
+    font-size: 35px;
+    color: white;
+    margin: 165px 38px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+#circle-button {
+    position: absolute;
+    top: 185px;
+    left: 605px;
+    width: 290px;
+    height: 290px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inika';
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 55px;
+
+}
+
+#car {
+    position: absolute;
+    top: 230px;
+    left: 670px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/*------------------------store page----------------------------*/
+
+.Store-page {
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+#i1 {
+    height: 400px;
+    width: 340px;
+    border: 4px solid white;
+    border-radius: 15%;
+    position: absolute;
+    top: 240px;
+    left: 200px;
+}
+
+#rectangle {
+    height: 410px;
+    width: 840px;
+    background-color: #393939;
+    border-radius: 15%;
+    opacity: 0.8;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+}
+
+.text {
+    font-family: 'Inika';
+    color: white;
+}
+
+#H {
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 625px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+
+#H1 {
+    font-size: 10px;
+    position: absolute;
+    top: 320px;
+    left: 627px;
+    font-weight: 10;
+    letter-spacing: 1.2px;
+}
+
+#H2 {
+    font-size: 10px;
+    position: absolute;
+    top: 360px;
+    left: 627px;
+    font-weight: 10;
+    letter-spacing: 1.2px;
+    line-height: 33px;
+}
+
+#Buy {
+    height: 54px;
+    width: 135px;
+    background: linear-gradient(to bottom, #38D86D, #1D7239);
+    border-radius: 15%;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Inika';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: 555px;
+    left: 625px;
+}
+
+#price {
+    font-family: 'Jaro';
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    color: white;
+    position: absolute;
+    top: 495px;
+    left: 655px;
+}
+/*------------------------------about page--------------------------------*/
+
+.About-page {
+    background-image: url('back3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+#kit {
+    height: 240px;
+    width: 180px;
+    border: 4px solid;
+    position: absolute;
+    top: 250px;
+    left: 653px;
+    border-image: linear-gradient(45deg, #00FFFF, #3700FF) 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
+
+#Kang {
+    width: 300px;
+    height: 90px;
+    background-color: #4CAF50; /* สีพื้นหลัง */
+    clip-path: polygon(19% 0%, 81% 0%, 100% 100%, 0% 100%); /* กำหนดจุดเพื่อสร้างสี่เหลี่ยมคางหมู */
+    position: absolute;
+    top: 430px;
+    left: 598px;
+    background-color: gray;
+    opacity: 0.3;
+}
+
+#ig {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 680px;
+    left: 540px;
+}
+
+#fa {
+    width: 135px;
+    height: auto;
+    position: absolute;
+    top: 661px;
+    left: 800px;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------Order page---------------------------------*/
+.Order-page {
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+#price1 {
+    font-family: 'Jaro';
+    font-size: 60px;
+    letter-spacing: 0.8px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#QR {
+    position: absolute;
+    top: 315px;
+    left: 630px;
+    border-radius: 10%;
+
+}
+
+#scan {
+    font-family: 'Inika';
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+    color: white;
+}
